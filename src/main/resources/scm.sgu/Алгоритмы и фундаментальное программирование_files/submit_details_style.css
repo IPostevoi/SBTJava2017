@@ -1,0 +1,105 @@
+.submit_details_header
+{
+}
+
+.submit_details_header 
+{
+    width: 95%;
+    margin: 1em;
+}
+
+.submit_details_header .field-value
+{
+    font-weight: bold;
+}
+
+.submit_details_header .field-name
+{
+    width: 25%;
+}
+
+.submit_details
+{
+    border-collapse: collapse;
+    width: 96%;
+    margin: 1em;
+}
+
+.submit_details th
+{
+    background-color: #6587B9;
+}
+
+.submit_details th
+{
+    border: 1px black solid;
+}
+
+.rejected
+{
+    background-color: #faa;
+}
+
+.accepted
+{
+    background-color: #afa;
+}
+
+.submit_details td
+{
+    border: 1px black solid;
+    padding: 0.4em;
+}
+
+.submit_details_footer
+{
+}
+
+.submit_details_footer 
+{
+    width: 100%;
+}
+
+.submit_details_footer .field-value
+{
+    font-weight: bold;
+}
+
+.submit_details_footer .field-name
+{
+    width: 25%;
+}
+
+.submit_ioa
+{
+    border-collapse: collapse;
+    width: 96%;
+    margin: 1em;
+}
+
+.submit_ioa th
+{
+    border: 1px black solid;
+}
+
+.submit_ioa td
+{
+    border: 1px black solid;
+}
+
+.submit_ioa_hidden
+{
+    display: none;
+}
+
+.submit_ioa pre
+{
+    background-color: #ccc;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 1em;    
+}
+
+.ioa
+{
+}

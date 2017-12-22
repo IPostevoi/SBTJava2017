@@ -1,0 +1,80 @@
+<html><head>
+  <title>Алгоритмы и фундаментальное программирование</title>
+  <meta content="text/html; charset=windows-1251" http-equiv="Content-Type">
+  <meta name="keywords" content="???">
+  <meta name="description" content="???">
+  <link rel="stylesheet" href="2057_files/style.css" type="text/css">
+  <link rel="stylesheet" href="2057_files/submit_details_style.css" type="text/css">
+  <link rel="stylesheet" href="2057_files/templates.css" type="text/css">
+  <link rel="stylesheet" href="2057_files/jquery-ui.css" type="text/css">
+  <script type="text/javascript" language="javascript" src="2057_files/jquery.js"></script>
+  <script type="text/javascript" language="javascript" src="2057_files/jquery_002.js"></script>
+  <script type="text/javascript" language="javascript" src="2057_files/jquery-ui.js"></script>
+<style type="text/css">/* This is not a zero-length file! */</style><style type="text/css">/* This is not a zero-length file! */</style></head>
+          <body style="font-size : 9pt;" bgcolor="#F3F6F9" alink="#336699" vlink="#336699" text="#000000" link="#336699"><div align="center">
+    <title> SSU Online Contester :: 2057. Структуры данных. Множество </title><meta http-equiv="content-type" content="text/html; charset=windows-1251"><link rel="stylesheet" type="text/css" href="2057_files/texstyle.html"></div><div align="center"><h4>2057. Структуры данных. Множество</h4></div><div align="center">ограничение времени на тест: 3 seconds<br>ограничение памяти на тест: 64 megabytes</div><div align="center">ввод: standard<br>вывод: standard</div><br>
+ Ваша задача — реализовать структуру данных, которая умеет хранить 
+мультимножество натуральных чисел, т.е. в этой структуре могут 
+одновременно храниться несколько равных элементов.<br><br>Эта структура должна поддерживать две операции: <ul> <li>добавить элемент <i>x</i> в множество </li><li>удалить
+ минимальный элемент в множестве и вернуть его значение (если 
+минимальных элементов несколько, то удаляется только один из них) </li></ul><br><br><br><div align="left"><b>Входные данные</b></div>Первая строка входных данных содержит число <i>n</i> (1 &#8804; <i>n</i> &#8804; 10<sup>6</sup>) — количество операций. Далее в <i>n</i> строках даны описания операций над множеством. Описание представляет собой число — тип запроса (1 или 2) и число <i>x</i> (1 &#8804; <i>x</i> &#8804; 10<sup>9</sup>) если это запрос первого типа.<br><br><br><div align="left"><b>Выходные данные</b></div>Для каждого запроса второго типа выведите результат на отдельной строке. <br><br><br><div align="left"><b>Пример(ы)</b></div>
+<table style="border-collapse:collapse; border: 1px black solid;" cellspacing="0" cellpadding="4">
+ <tbody><tr>
+ <td style="border-collapse:collapse; border: 1px black solid;" width="400" valign="top">
+ <pre>input.txt</pre>
+ </td>
+ <td style="border-collapse:collapse; border: 1px black solid;" width="400" valign="top">
+ <pre>output.txt</pre>
+ </td>
+ </tr>
+ <tr>
+ <td style="border-collapse:collapse; border: 1px black solid;" width="400" valign="top">
+ <pre>6
+1 3
+1 2
+1 1
+2
+2
+2
+</pre>
+ </td>
+ <td style="border-collapse:collapse; border: 1px black solid;" width="400" valign="top">
+ <pre>1
+2
+3
+</pre>
+ </td>
+ </tr>
+</tbody></table><br>
+<table style="border-collapse:collapse; border: 1px black solid;" cellspacing="0" cellpadding="4">
+ <tbody><tr>
+ <td style="border-collapse:collapse; border: 1px black solid;" width="400" valign="top">
+ <pre>input.txt</pre>
+ </td>
+ <td style="border-collapse:collapse; border: 1px black solid;" width="400" valign="top">
+ <pre>output.txt</pre>
+ </td>
+ </tr>
+ <tr>
+ <td style="border-collapse:collapse; border: 1px black solid;" width="400" valign="top">
+ <pre>8
+1 1
+1 1
+2
+1 1
+1 2
+2
+2
+2
+</pre>
+ </td>
+ <td style="border-collapse:collapse; border: 1px black solid;" width="400" valign="top">
+ <pre>1
+1
+1
+2
+</pre>
+ </td>
+ </tr>
+</tbody></table><br>
+<br><br> <div align="left"><a href="http://acm.sgu.ru/lang/sortsize.php?problem=2057">[отсортированные по размеру решения]</a></div><hr><table cellspacing="0" cellpadding="0" border="0" width="100%"><tbody><tr style="background-color : #FFFFFF;"><td align="right"><a target="_top" href="mailto:acm@cs.sgu.ru">Online Contester</a> Team © 2002 - 2012. All rights reserved.</td></tr></tbody></table></body></html>

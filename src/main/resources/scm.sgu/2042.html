@@ -1,0 +1,86 @@
+<html><head>
+  <title>Алгоритмы и фундаментальное программирование</title>
+  <meta content="text/html; charset=windows-1251" http-equiv="Content-Type">
+  <meta name="keywords" content="???">
+  <meta name="description" content="???">
+  <link rel="stylesheet" href="2042_files/style.css" type="text/css">
+  <link rel="stylesheet" href="2042_files/submit_details_style.css" type="text/css">
+  <link rel="stylesheet" href="2042_files/templates.css" type="text/css">
+  <link rel="stylesheet" href="2042_files/jquery-ui.css" type="text/css">
+  <script type="text/javascript" language="javascript" src="2042_files/jquery.js"></script>
+  <script type="text/javascript" language="javascript" src="2042_files/jquery_002.js"></script>
+  <script type="text/javascript" language="javascript" src="2042_files/jquery-ui.js"></script>
+<style type="text/css">/* This is not a zero-length file! */</style><style type="text/css">/* This is not a zero-length file! */</style></head>
+          <body style="font-size : 9pt;" bgcolor="#F3F6F9" alink="#336699" vlink="#336699" text="#000000" link="#336699"><div align="center">
+    <title> SSU Online Contester :: 2042. Строки. Поиск образца в тексте </title><meta http-equiv="content-type" content="text/html; charset=windows-1251"><link rel="stylesheet" type="text/css" href="2042_files/texstyle.html"></div><div align="center"><h4>2042. Строки. Поиск образца в тексте</h4></div><div align="center">ограничение времени на тест: 2 seconds<br>ограничение памяти на тест: 64 megabytes</div><div align="center">ввод: standard<br>вывод: standard</div><br>
+ Дан текст, состоящий из строчных латинских букв, и шаблон, состоящий из
+ строчных латинских букв и знаков вопроса. Знак вопроса может обозначить
+ любую букву. Например, строки "abaca" и "??ac?" равны, а "aba" и "?c?" —
+ нет.<br><br>Ваша задача — вывести все позиции вхождения шаблона в текст.<br><br><br><div align="left"><b>Входные данные</b></div>В
+ первой строке входных данных содержится текст, состоящий только из 
+строчных латинских букв. Во второй строке содержится шаблон, состоящий 
+из строчных латинских букв и знаков вопроса. Длины текста и шаблона не 
+менее 1 и не более 1000 символов.<br><br><br><div align="left"><b>Выходные данные</b></div>Выведите
+ все позиции вхождения шаблона в текст в возрастающем порядке. Числа 
+разделяйте пробелами. Позиции в строке нумеруются с 1.<br><br><br><div align="left"><b>Пример(ы)</b></div>
+<table style="border-collapse:collapse; border: 1px black solid;" cellspacing="0" cellpadding="4">
+ <tbody><tr>
+ <td style="border-collapse:collapse; border: 1px black solid;" width="400" valign="top">
+ <pre>input.txt</pre>
+ </td>
+ <td style="border-collapse:collapse; border: 1px black solid;" width="400" valign="top">
+ <pre>output.txt</pre>
+ </td>
+ </tr>
+ <tr>
+ <td style="border-collapse:collapse; border: 1px black solid;" width="400" valign="top">
+ <pre>abacaba
+a?a
+</pre>
+ </td>
+ <td style="border-collapse:collapse; border: 1px black solid;" width="400" valign="top">
+ <pre>1 3 5 </pre>
+ </td>
+ </tr>
+</tbody></table><br>
+<table style="border-collapse:collapse; border: 1px black solid;" cellspacing="0" cellpadding="4">
+ <tbody><tr>
+ <td style="border-collapse:collapse; border: 1px black solid;" width="400" valign="top">
+ <pre>input.txt</pre>
+ </td>
+ <td style="border-collapse:collapse; border: 1px black solid;" width="400" valign="top">
+ <pre>output.txt</pre>
+ </td>
+ </tr>
+ <tr>
+ <td style="border-collapse:collapse; border: 1px black solid;" width="400" valign="top">
+ <pre>pamparamparampampam
+pa?
+</pre>
+ </td>
+ <td style="border-collapse:collapse; border: 1px black solid;" width="400" valign="top">
+ <pre>1 4 9 14 17 </pre>
+ </td>
+ </tr>
+</tbody></table><br>
+<table style="border-collapse:collapse; border: 1px black solid;" cellspacing="0" cellpadding="4">
+ <tbody><tr>
+ <td style="border-collapse:collapse; border: 1px black solid;" width="400" valign="top">
+ <pre>input.txt</pre>
+ </td>
+ <td style="border-collapse:collapse; border: 1px black solid;" width="400" valign="top">
+ <pre>output.txt</pre>
+ </td>
+ </tr>
+ <tr>
+ <td style="border-collapse:collapse; border: 1px black solid;" width="400" valign="top">
+ <pre>pamparamparampampam
+pam
+</pre>
+ </td>
+ <td style="border-collapse:collapse; border: 1px black solid;" width="400" valign="top">
+ <pre>1 14 17 </pre>
+ </td>
+ </tr>
+</tbody></table><br>
+<br><br> <div align="left"><a href="http://acm.sgu.ru/lang/sortsize.php?problem=2042">[отсортированные по размеру решения]</a></div><hr><table cellspacing="0" cellpadding="0" border="0" width="100%"><tbody><tr style="background-color : #FFFFFF;"><td align="right"><a target="_top" href="mailto:acm@cs.sgu.ru">Online Contester</a> Team © 2002 - 2012. All rights reserved.</td></tr></tbody></table></body></html>

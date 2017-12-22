@@ -1,0 +1,79 @@
+<html><head>
+  <title>Алгоритмы и фундаментальное программирование</title>
+  <meta content="text/html; charset=windows-1251" http-equiv="Content-Type">
+  <meta name="keywords" content="???">
+  <meta name="description" content="???">
+  <link rel="stylesheet" href="%D0%90%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC%D1%8B%20%D0%B8%20%D1%84%D1%83%D0%BD%D0%B4%D0%B0%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5_files/style.css" type="text/css">
+  <link rel="stylesheet" href="%D0%90%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC%D1%8B%20%D0%B8%20%D1%84%D1%83%D0%BD%D0%B4%D0%B0%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5_files/submit_details_style.css" type="text/css">
+  <link rel="stylesheet" href="%D0%90%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC%D1%8B%20%D0%B8%20%D1%84%D1%83%D0%BD%D0%B4%D0%B0%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5_files/templates.css" type="text/css">
+  <link rel="stylesheet" href="%D0%90%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC%D1%8B%20%D0%B8%20%D1%84%D1%83%D0%BD%D0%B4%D0%B0%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5_files/jquery-ui.css" type="text/css">
+  <script type="text/javascript" language="javascript" src="%D0%90%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC%D1%8B%20%D0%B8%20%D1%84%D1%83%D0%BD%D0%B4%D0%B0%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5_files/jquery.js"></script>
+  <script type="text/javascript" language="javascript" src="%D0%90%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC%D1%8B%20%D0%B8%20%D1%84%D1%83%D0%BD%D0%B4%D0%B0%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5_files/jquery_002.js"></script>
+  <script type="text/javascript" language="javascript" src="%D0%90%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC%D1%8B%20%D0%B8%20%D1%84%D1%83%D0%BD%D0%B4%D0%B0%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5_files/jquery-ui.js"></script>
+<style type="text/css">/* This is not a zero-length file! */</style><style type="text/css">/* This is not a zero-length file! */</style></head>
+          <body style="font-size : 9pt;" bgcolor="#F3F6F9" alink="#336699" vlink="#336699" text="#000000" link="#336699"><div align="center">
+    <title> SSU Online Contester :: 2039. Строки. Количество слов в тексте </title><meta http-equiv="content-type" content="text/html; charset=windows-1251"><link rel="stylesheet" type="text/css" href="%D0%90%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC%D1%8B%20%D0%B8%20%D1%84%D1%83%D0%BD%D0%B4%D0%B0%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5_files/texstyle.html"></div><div align="center"><h4>2039. Строки. Количество слов в тексте</h4></div><div align="center">ограничение времени на тест: 2 seconds<br>ограничение памяти на тест: 64 megabytes</div><div align="center">ввод: standard<br>вывод: standard</div><br>
+ Определим слово как последовательность латинских букв алфавита. Все остальные символы являются разделителями.<br><br>Дан
+ текст, состоящий из символов с номерами от 32 до 127 (см. таблицу 
+символов ASCII). Ваша задача — подсчитать количество слов в этом тексте.<br><br><br><div align="left"><b>Входные данные</b></div>Входные данные состоят из единственной строки, длиной не более 10000 символов — исходный текст.<br><br><br><div align="left"><b>Выходные данные</b></div>Выведите единственное число — количество слов в данном тексте.<br><br><br><div align="left"><b>Пример(ы)</b></div>
+<table style="border-collapse:collapse; border: 1px black solid;" cellspacing="0" cellpadding="4">
+ <tbody><tr>
+ <td style="border-collapse:collapse; border: 1px black solid;" width="400" valign="top">
+ <pre>input.txt</pre>
+ </td>
+ <td style="border-collapse:collapse; border: 1px black solid;" width="400" valign="top">
+ <pre>output.txt</pre>
+ </td>
+ </tr>
+ <tr>
+ <td style="border-collapse:collapse; border: 1px black solid;" width="400" valign="top">
+ <pre>Vasya is a boy.
+</pre>
+ </td>
+ <td style="border-collapse:collapse; border: 1px black solid;" width="400" valign="top">
+ <pre>4
+</pre>
+ </td>
+ </tr>
+</tbody></table><br>
+<table style="border-collapse:collapse; border: 1px black solid;" cellspacing="0" cellpadding="4">
+ <tbody><tr>
+ <td style="border-collapse:collapse; border: 1px black solid;" width="400" valign="top">
+ <pre>input.txt</pre>
+ </td>
+ <td style="border-collapse:collapse; border: 1px black solid;" width="400" valign="top">
+ <pre>output.txt</pre>
+ </td>
+ </tr>
+ <tr>
+ <td style="border-collapse:collapse; border: 1px black solid;" width="400" valign="top">
+ <pre>Professional1way2to3prepare4programming5contest6problem7890
+</pre>
+ </td>
+ <td style="border-collapse:collapse; border: 1px black solid;" width="400" valign="top">
+ <pre>7
+</pre>
+ </td>
+ </tr>
+</tbody></table><br>
+<table style="border-collapse:collapse; border: 1px black solid;" cellspacing="0" cellpadding="4">
+ <tbody><tr>
+ <td style="border-collapse:collapse; border: 1px black solid;" width="400" valign="top">
+ <pre>input.txt</pre>
+ </td>
+ <td style="border-collapse:collapse; border: 1px black solid;" width="400" valign="top">
+ <pre>output.txt</pre>
+ </td>
+ </tr>
+ <tr>
+ <td style="border-collapse:collapse; border: 1px black solid;" width="400" valign="top">
+ <pre>pam param pam - pam
+</pre>
+ </td>
+ <td style="border-collapse:collapse; border: 1px black solid;" width="400" valign="top">
+ <pre>4
+</pre>
+ </td>
+ </tr>
+</tbody></table><br>
+<br><br> <div align="left"><a href="http://acm.sgu.ru/lang/sortsize.php?problem=2039">[отсортированные по размеру решения]</a></div><hr><table cellspacing="0" cellpadding="0" border="0" width="100%"><tbody><tr style="background-color : #FFFFFF;"><td align="right"><a target="_top" href="mailto:acm@cs.sgu.ru">Online Contester</a> Team © 2002 - 2012. All rights reserved.</td></tr></tbody></table></body></html>

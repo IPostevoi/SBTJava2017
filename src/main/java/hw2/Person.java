@@ -64,7 +64,7 @@ public class Person {
         return spouse;
     }
 
-    private void setSpouse(Person spouse) {
+    public void setSpouse(Person spouse) {
         this.spouse = spouse;
     }
 }
